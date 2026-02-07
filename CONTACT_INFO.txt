@@ -1,0 +1,98 @@
+╔════════════════════════════════════════════════════════════════════╗
+║        SID OS SOLUTIONS (SOS) - CONTACT INFORMATION              ║
+╚════════════════════════════════════════════════════════════════════╝
+
+OWNER DETAILS
+═════════════════════════════════════════════════════════════════════
+Name:           Siddik Vadla
+Title:          IIITian & Technical Expert
+Experience:     200+ Laptops serviced
+
+CONTACT DETAILS
+═════════════════════════════════════════════════════════════════════
+Phone:          +91 8500783032
+Email:          famsol786@gmail.com
+Office:         Swaliheen Masjid
+                Nadigadda
+                Nandyal - 518501
+
+BUSINESS HOURS
+═════════════════════════════════════════════════════════════════════
+Monday-Sunday:  9:00 AM - 6:00 PM IST
+Service Type:   Doorstep & Office Based
+Availability:   24/7 (Emergency support available)
+
+SERVICES PROVIDED
+═════════════════════════════════════════════════════════════════════
+1. Ubuntu Software Installation
+2. Windows Software Installation
+3. Dual Boot Setup (Ubuntu + Windows)
+4. Single Boot Installation
+5. Software Issue Resolution
+6. System Troubleshooting
+7. Performance Optimization
+8. Driver Installation & Updates
+9. System Upgrades
+
+WEBSITE LOCATIONS WHERE CONTACT INFO APPEARS
+═════════════════════════════════════════════════════════════════════
+
+1. ContactSection.tsx
+   - Owner Name: Line ~46
+   - Phone Number: Line ~62
+   - Office Address: Line ~80
+
+2. Footer.tsx
+   - Phone: Line ~110
+   - Email: Line ~111
+   - Address: Line ~112
+
+3. CTASection.tsx
+   - Contact Reference: Line ~185
+
+4. Header.tsx
+   - CTA Button: Line ~68
+
+5. ScrollIndicator.tsx
+   - N/A (No contact info)
+
+QUICK UPDATE COMMANDS
+═════════════════════════════════════════════════════════════════════
+
+To update contact info quickly:
+1. Search for "+91 98765-43210" to find all phone references
+2. Search for "123 Tech Street" to find all address references
+3. Search for "Sid Kumar" to find all name references
+4. Search for "New Delhi" to find location references
+
+FILES TO UPDATE
+═════════════════════════════════════════════════════════════════════
+- components/ContactSection.tsx (MAIN)
+- components/Footer.tsx (SECONDARY)
+- components/CTASection.tsx (REFERENCE)
+
+TESTING CHECKLIST AFTER UPDATE
+═════════════════════════════════════════════════════════════════════
+□ Contact section displays correct name
+□ Contact section displays correct phone
+□ Contact section displays correct address
+□ Footer displays correct phone
+□ Footer displays correct email (if added)
+□ Footer displays correct address
+□ CTA section mentions correct phone
+□ All text is clearly visible (contrast check)
+□ Links are clickable (if added)
+□ Mobile layout looks good
+
+STATISTICS (Can be updated in AboutSection.tsx)
+═════════════════════════════════════════════════════════════════════
+Clients Served:     500+
+Years Experience:   10+
+Support Available:  24/7
+Satisfaction Rate:  100%
+
+═════════════════════════════════════════════════════════════════════
+Last Updated: February 2024
+Website Version: 1.0
+Framework: Next.js 16
+═════════════════════════════════════════════════════════════════════
