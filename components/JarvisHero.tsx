@@ -129,6 +129,8 @@ export default function JarvisHero() {
               </div>
             </motion.div>
             </a>
+          </div>
+        </motion.div>
       </div>
 
       {/* Scanlines */}
