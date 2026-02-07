@@ -111,6 +111,7 @@ export default function JarvisHero() {
             />
 
             {/* Center orb */}
+            <a href={`tel:+918500783032`}>
             <motion.div
               className="absolute inset-20 rounded-full bg-gradient-to-b from-cyan-400/40 to-blue-500/20 border border-cyan-400/50 flex items-center justify-center"
               animate={{
@@ -127,8 +128,7 @@ export default function JarvisHero() {
                 <p className="text-2xl font-bold hologram-glow">ACTIVE</p>
               </div>
             </motion.div>
-          </div>
-        </motion.div>
+            </a>
       </div>
 
       {/* Scanlines */}
