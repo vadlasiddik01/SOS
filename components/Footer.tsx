@@ -130,7 +130,7 @@ export default function Footer() {
   viewport={{ once: true }}
 >
   <motion.p
-  className="text-base font-mono cursor-pointer hidden md:block"
+  className="text-base font-mono cursor-pointer"
   initial={{ color: 'rgba(191,219,254,0.5)' }} // blue-200/50
   animate={{
     color: [
