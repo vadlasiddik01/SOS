@@ -77,7 +77,7 @@ export default function Header() {
         </nav>
 
         <motion.p
-  className="text-base font-mono cursor-pointer"
+  className="text-base font-mono cursor-pointer hidden md:block"
   initial={{ color: 'rgba(191,219,254,0.5)' }} // blue-200/50
   animate={{
     color: [
