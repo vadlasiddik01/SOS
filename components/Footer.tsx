@@ -130,21 +130,33 @@ export default function Footer() {
   viewport={{ once: true }}
 >
   <motion.p
-    className="text-blue-200/50 text-xs font-mono cursor-pointer"
-    whileHover={{
-      scale: 1.25,     // zoom in
-      y: -6,           // move up
-      color: '#22d3ee' // cyan-400
-    }}
-    transition={{
-      type: 'spring',
-      stiffness: 300,
-      damping: 18
-    }}
-  >
-    <a href={`tel:+918500783032`}>
-    Refer & Get 100rs</a>
-  </motion.p>
+  className="text-base font-mono cursor-pointer hidden md:block"
+  initial={{ color: 'rgba(191,219,254,0.5)' }} // blue-200/50
+  animate={{
+    color: [
+      'rgba(191,219,254,0.5)',
+      '#22d3ee',
+      'rgba(191,219,254,0.5)',
+    ], 
+    transition: {
+      duration: 0.5,
+      repeat: Infinity,
+      ease: 'easeOut',
+    },
+  }}
+  whileHover={{
+    scale: 1.25,     // zoom in
+    y: -3,           // move up
+    color: '#22d3ee' // cyan-400
+  }}
+  transition={{
+    type: 'spring',
+    stiffness: 300,
+    damping: 18
+  }}
+  ><a href={`tel:+918500783032`}>
+  Refer & Get 100rs</a>
+</motion.p>
 </motion.div>
 
           </div>
