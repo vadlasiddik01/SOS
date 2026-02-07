@@ -113,7 +113,7 @@ export default function JarvisHero() {
             {/* Center orb */}
             <a href={`tel:+918500783032`}>
             <motion.div
-              className="absolute inset-20 rounded-full bg-gradient-to-b from-cyan-400/40 to-blue-500/20 border border-cyan-400/50 flex items-center justify-center"
+              className="absolute inset-20 rounded-full bg-gradient-to-b from-cyan-400/40 to-blue-500/20 border border-cyan-400/50 flex items-center justify-center cursor-poiner"
               animate={{
                 boxShadow: [
                   '0 0 20px rgba(34,211,238,0.3)',
