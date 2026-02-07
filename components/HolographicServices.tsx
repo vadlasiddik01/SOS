@@ -9,6 +9,7 @@ import {
   Wrench,
   BarChart3,
   HardDrive,
+  Globe
 } from 'lucide-react';
 
 const services = [
@@ -36,6 +37,14 @@ const services = [
     features: ['Diagnosis', 'Fix', 'Testing'],
     icon: Wrench,
   },
+  {
+    id: 4,
+    title: 'Visiting Card Websites',
+    price: '₹500',
+    description: 'Promotional Websites Same like this(SOS) & Design as your wish',
+    features: ['Custom Design', 'No Backend(static only) ', 'Lifetime Service'],
+    icon: Globe,
+  }
 ];
 
 interface ServiceCardProps {
